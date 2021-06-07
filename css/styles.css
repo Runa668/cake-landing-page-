@@ -1,0 +1,186 @@
+
+
+#title{
+  background-color:#a9f1df;
+
+}
+body{
+  font-family:'Open Sans', sans-serif;
+  color:#000000;
+}
+h2,h3, h4 ,h5 ,h6{
+font-family: 'Pattaya', sans-serif;
+}
+
+p{
+color:#000000;
+font-family: 'Fjalla One', sans-serif;
+}
+.Title-container{
+  padding:2% 0 5%;
+  background-color:#000000;
+}
+.Test-container{
+background-image: url("https://i.ibb.co/zXxh80P/back-1.jpg");
+background-size: cover;
+
+}
+.big-heading{
+  color:#fff;
+  font-family:'Limelight', cursive;
+  font-size:3.3rem;
+  line-height:1.5;
+  text-align: center;
+
+}
+.section-heading{
+  color:#fff;
+  margin-bottom: 5%;
+ }
+
+/* navigation bar */
+.navbar {
+padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+  font-size:2.5rem;
+  font-family:'Pattaya', sans-serif;;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.row{
+  padding: 0 15rem 0;
+}
+.nav-link{
+font-family: 'Fjalla One', sans-serif;
+}
+/* dowload buttons */
+.Download-button{
+  margin: 5%  5%;
+ font-family: 'Fjalla One', sans-serif;
+}
+.btn-outline-secondary{
+ font-family: 'Fjalla One', sans-serif;
+}
+/* title class */
+.title-image{
+  padding:5% 0 5%;
+  transform: rotate(30deg);
+  position: absolute;
+  opacity: 0.9;
+}
+/*  feature section  */
+#features{
+  padding: 5% 0 5%;
+  background-color:#fff;
+  position:relative;
+  z-index:1;
+}
+.features-box{
+  text-align:center;
+  padding:5% 0 5% ;
+
+}
+.feature-text{
+ color:#e48257;
+}
+/* icon */
+.icon{
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#fff;
+}
+
+/* carousel items  */
+
+#pack{
+  padding: 5% 0 5%;
+  text-align: center;
+  background-image: url("https://i.ibb.co/zmdM25m/back-2.jpg");
+  opacity: 0.9;
+  background-size: cover;
+
+}
+.carousel-pic{
+border-radius:50%;
+width:30%;
+}
+.carousel-text{
+  line-height:1.5;
+  color:#e48257;
+}
+.big-heading-carousel {
+color:#e48257;
+font-family: 'Pattaya', sans-serif;
+font-size:4rem;
+}
+
+/* press logos  */
+.press{
+width: 100%;
+height: 50%;
+padding:3% 3%;
+background-color:#e48257;
+text-align: center;
+
+}
+.press-text{
+font-family: 'Pattaya', sans-serif;
+color:#a9f1df;
+}
+/* priceing section */
+
+#pricing{
+width:53.5%;
+margin:5% 25% 5%;
+}
+.pricing-collum{
+margin:5% 0% 3%;
+ }
+.row{
+padding:5% 0 5%;
+}
+.price-title{
+  line-height:1.5;
+}
+.text-muted{
+font-family: 'Pattaya', sans-serif;
+font-size:4rem;
+}
+.price-heading{
+  color:#999b84;
+  text-align: center;
+  font-family: 'Pattaya', sans-serif;
+  font-size:4rem;
+}
+
+/* cta section */
+
+#cta{
+  background-color:#a9f1df;
+  color: #fff;
+  padding:5% 0 3%;
+  text-align: center;
+}
+
+/* footer section */
+
+#footer{
+  padding: 2% 20% 2%;
+  text-align:center;
+}
+.social-icon {
+  margin: 20px 5px  10px;
+}
+
+/* responsive  */
+
+@media(max-width:1028px){
+.title-image{
+  position:static;
+  transform: rotate(0);
+}
+}
